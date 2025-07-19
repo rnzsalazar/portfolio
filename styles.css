@@ -1,0 +1,46 @@
+body {
+    font-family: Verdana, Segoe UI, sans-serif;
+}
+
+.navbar{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.card {
+    background-color: #B6AD90;
+    color: #333D29;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+body {
+    background-color: #A4AC86;
+    color: #333D29;
+    margin: 0;
+}
+
+.portfolio-header {
+    background-color: #333D29;
+    padding: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.portfolio-main {
+    background-color: #A68A64;
+}
+
+.portfolio-section {
+    border-bottom: 2px solid #414833;
+}
+
+.portfolio-footer {
+    background-color: #333D29;
+    color: white;
+    text-align: center;
+}
