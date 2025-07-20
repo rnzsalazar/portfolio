@@ -118,3 +118,31 @@ a:hover {
     transform: scale(1.25);
     color: #333D29;
 }
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.project-card {
+    background-color: #C2C5AA;
+    padding: 20px;
+    border-radius: 12px;
+    color: #333D29;
+}
+
+.project-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #582F0E;
+}
+
+.project-card p {
+    margin: 0;
+    line-height: 1.5;
+}

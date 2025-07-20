@@ -28,6 +28,46 @@
     </section>
     <section id="projects" class="portfolio-section-alternate">
         <h1>Projects</h1>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Production ETL Pipeline</h3>
+                <p>
+                    Developed a backend pipeline that reads `.dbf` files containing incoming work orders.
+                    Used Python and Pandas to clean and reformat the data, then automated updates via cron jobs
+                    every 15 minutes. The data was pushed to a Firebase Realtime Database for live access.
+                </p>
+            </div>
+            <div class="project-card">
+                <h3>Order Display Dashboard</h3>
+                <p>
+                    Created a Vue.js web application that visualized production order data using a responsive DataTable.
+                    Designed for large TV displays, it auto-paginated every 15 seconds and looped through the entries.
+                    Rows changed color based on the due date value (yellow if the due date was within 2–4 days from
+                    current date, and red if the due date was within a day or already passed). The table
+                    showed the work order, part number, quantity, and the due date.
+                </p>
+            </div>
+            <div class="project-card">
+                <h3>Visitor Sign-In Android App</h3>
+                <p>
+                    Designed a visitor management app where guests filled out a form on an android tablet,
+                    took a photo, and printed an ID badge for them. Badges featured a QR code, name, time in,
+                    and the ID number was based on the timestamp. Visitors could sign out manually or by scanning
+                    their badge's qr code. The app also allowed exports of visitor logs to Excel for logging purposes.
+                </p>
+            </div>
+            <div class="project-card">
+                <h3>Product PDF Label Generator</h3>
+                <p>
+                    Built a Java application using iText7 to create part-specific labels compatible with Avery
+                    templates.
+                    Each label included the company banner, QR code, part number, serial number, and part description.
+                    The user would select the label they wanted based on the category (lamp, bulb, harness/adapter, or
+                    dimmer),
+                    then they put in the part number and serial number, the rest would be pulled from the database.
+                </p>
+            </div>
+        </div>
     </section>
     <section id="skills" class="portfolio-section">
         <h1>Skills</h1>
@@ -57,12 +97,17 @@
             <li>Homelab</li>
         </ul>
     </section>
+    <
+    <section id="photography" class="portfolio-section">
+        <h1>Photography</h1>
+    </section>
     <section id="contact" class="portfolio-section">
         <h1>Contact</h1>
         <div class="contact-cards">
             <div class="card">
                 <h3>Email</h3>
-                <p><a href="mailto:renzo.salazarcueva@gmail.com"><i class="fa-solid fa-envelope"></i> renzo.salazarcueva@gmail.com</a></p>
+                <p><a href="mailto:renzo.salazarcueva@gmail.com"><i class="fa-solid fa-envelope"></i>
+                    renzo.salazarcueva@gmail.com</a></p>
             </div>
             <div class="card">
                 <h3>Phone</h3>
