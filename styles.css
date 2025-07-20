@@ -15,17 +15,21 @@ body {
     font-size: medium;
     font-weight: bold;
 }
-
+.contact-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
 .card {
-    background-color: #B6AD90;
+    background-color: #C2C5AA;
     color: #333D29;
     padding: 20px;
     border-radius: 12px;
     margin-bottom: 20px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 body {
     background-color: #A4AC86;
+    font-size: 12px;
     color: #333D29;
     margin: 0;
 }
@@ -40,15 +44,24 @@ body {
     text-decoration: none;
 }
 
-.portfolio-main {
-    background-color: #A68A64;
-}
-
 .portfolio-section {
-    border-bottom: 2px solid #414833;
+    border-bottom: 2px solid #B6AD90;
+    background-color: #A68A64;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 10px 10px;
+}
+
+.portfolio-section-alternate {
+    border-bottom: 2px solid #A68A64;
+    background-color: #B6AD90;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
 }
 
 .portfolio-footer {
