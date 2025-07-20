@@ -21,8 +21,11 @@
     <section id="about" class="portfolio-section">
         <h1>About Me</h1>
         <img class="portfolio-picture" src="images/me.webp" alt="picture of me">
-        <div><p>
-            My name is Renzo Salazar Cueva. I am currently a Computer Science student at Queens College.
+        <br />
+        <div class="card"><p>
+            My name is Renzo Salazar Cueva. I am currently a Computer Science student at Queens College. I work in IT, which lets me put
+            the skills that I have learned and deploy them in a work environment. I am currently trying to learn more about networking in
+            my personal time. When I am not working on something, I like to enjoy taking pictures or going skateboarding.
         </p>
         </div>
     </section>
@@ -100,43 +103,38 @@
     </section>
     <section id="hobbies" class="portfolio-section-alternate">
         <h1>Hobbies</h1>
-        <ul class="hobby-list">
-            <li>Film Photography</li>
-            <li>Video Games</li>
-            <li>Skateboarding</li>
-            <li>Homelab</li>
-        </ul>
+        <div class="contact-cards">
+            <div class="card">
+                <h3>Film Photography</h3>
+            </div>
+            <div class="card">
+                <h3>Video Games</h3>
+            </div>
+            <div class="card">
+                <h3>Skateboarding</h3>
+            </div>
+            <div class="card">
+                <h3>Homelab</h3>
+            </div>
+        </div>
     </section>
     <section id="photography" class="portfolio-section">
         <h1>Photography</h1>
         <div class="photo-carousel">
+            <button class="carousel-button">❮</button>
             <img id="carouselImage" src="images/photography1.webp" alt="photograph" />
-        </div>
-    </section>
-    <section id="contact" class="portfolio-section-alternate">
-        <h1>Contact</h1>
-        <div class="contact-cards">
-            <div class="card">
-                <h3>Email</h3>
-                <p><a href="mailto:renzo.salazarcueva@gmail.com"><i class="fa-solid fa-envelope"></i>
-                    renzo.salazarcueva@gmail.com</a></p>
-            </div>
-            <div class="card">
-                <h3>Phone</h3>
-                <p><a href="tel:+16313926624"><i class="fa-solid fa-phone"></i>(631)392-6624</a></p>
-            </div>
-            <div class="card">
-                <h3>GitHub</h3>
-                <a href="https://github.com/rnzsalazar" target="_blank">
-                    <p><i class="fa-brands fa-github"></i> github.com/rnzsalazar</p>
-                </a>
-            </div>
+            <button class="carousel-button">❯</button>
         </div>
     </section>
 </main>
-<footer class="portfolio-footer">
+<footer id="contact" class="portfolio-footer">
     <div class="footer-left">
-
+        <h1>Contact</h1>
+        <div class="footer-contact">
+            <p><i class="fa-solid fa-envelope"></i> <a href="mailto:renzo.salazarcueva@gmail.com">renzo.salazarcueva@gmail.com</a></p>
+            <p><i class="fa-solid fa-phone"></i> <a href="tel:+16313926624">(631) 392-6624</a></p>
+            <p><i class="fa-brands fa-github"></i> <a href="https://github.com/rnzsalazar" target="_blank">github.com/rnzsalazar</a></p>
+        </div>
     </div>
 </footer>
 <script src="script.js"></script>
