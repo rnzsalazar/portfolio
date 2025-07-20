@@ -1,5 +1,6 @@
 const skillCards = document.querySelectorAll('.skill-card');
 
+
 skillCards.forEach(skillCard => {
     skillCard.addEventListener('mouseenter', (event) => {
         skillCard.classList.add('hover-effect');
