@@ -22,7 +22,7 @@ body {
 .contact-cards {
     display: flex;
     justify-content: space-around;
-    gap: 10px;
+    gap: 35px;
 }
 .card {
     background-color: #C2C5AA;
@@ -98,6 +98,7 @@ a:hover {
 }
 .skills-grid {
     display: grid;
+    justify-content: center;
     grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
     gap: 15px;
     margin: 20px 20px;
