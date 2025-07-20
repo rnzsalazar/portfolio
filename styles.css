@@ -18,11 +18,10 @@ body {
 .contact-cards {
     display: flex;
     justify-content: space-around;
-    gap: 25px;
+    gap: 10px;
 }
 .card {
     background-color: #C2C5AA;
-    color: #333D29;
     padding: 20px;
     border-radius: 12px;
     margin-bottom: 20px;
