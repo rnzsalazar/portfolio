@@ -2,6 +2,15 @@ body {
     font-family: Verdana, Segoe UI, sans-serif;
 }
 
+.portfolio-picture{
+    display: block;
+    object-fit: cover;
+    border: 5px solid #000;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-self: center;
+}
 .navbar{
     font-size: medium;
     font-weight: bold;
@@ -37,6 +46,9 @@ body {
 
 .portfolio-section {
     border-bottom: 2px solid #414833;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .portfolio-footer {
