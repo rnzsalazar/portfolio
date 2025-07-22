@@ -62,7 +62,6 @@ a:hover {
     text-decoration: underline;
 }
 
-
 .portfolio-header {
     background-color: #333D29;
     padding: 20px;
@@ -72,33 +71,25 @@ a:hover {
     color: white;
     text-decoration: none;
 }
-
-
-
-
 .portfolio-footer {
     background-color: #333D29;
     color: white;
     text-align: center;
 }
-.hobby-list {
-    display: flex;
-    flex-wrap: wrap;
+.hobbies-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    gap: 15px;
+    margin: 20px;
     justify-content: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    gap: 30px;
 }
-
-.hobby-list li {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 5px;
-    font-size: 16px;
-    padding: 10px 15px;
-    border-radius: 8px;
+.hobby-card {
+    background-color: #414833;
+    color: #C2C5AA;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
 }
 .skills-grid {
     display: grid;
@@ -206,6 +197,7 @@ a:hover {
         padding: 10px;
         justify-content: center;
     }
+    .hobby-list
 
     .project-card {
         width: 100%;
