@@ -178,6 +178,19 @@ a:hover {
     padding: 15px;
 }
 
+.hobby-card.camera {
+    cursor: url('icons/camera.ico'), auto;
+}
+.hobby-card.controller {
+    cursor: url('icons/controller.ico'), auto;
+}
+.hobby-card.skateboard {
+    cursor: url('icons/skateboard.ico'), auto;
+}
+.hobby-card.server {
+    cursor: url('icons/server.ico'), auto;
+}
+
 @media (max-width: 768px) {
     body {
         font-size: 14px;
