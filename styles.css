@@ -27,11 +27,9 @@ body {
     text-align: left;
 }
 .portfolio-section {
-    border-bottom: 2px solid #B6AD90;
     background-color: #A68A64;
 }
 .portfolio-section-alternate {
-    border-bottom: 2px solid #A68A64;
     background-color: #B6AD90;
 }
 .navbar{
@@ -78,7 +76,7 @@ a:hover {
 }
 .hobbies-grid {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
     gap: 15px;
     margin: 20px;
     justify-content: center;
@@ -187,7 +185,7 @@ a:hover {
         height: auto;
     }
 
-    .skills-grid {
+    .skills-grid, .hobbies-grid {
         grid-template-columns: auto auto;
         justify-content: center;
     }
@@ -197,7 +195,6 @@ a:hover {
         padding: 10px;
         justify-content: center;
     }
-    .hobby-list
 
     .project-card {
         width: 100%;
