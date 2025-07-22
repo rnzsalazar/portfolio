@@ -1,7 +1,7 @@
 body {
     background-color: #A4AC86;
     font-family: Verdana, Segoe UI, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #333D29;
     margin: 0;
 }
@@ -13,6 +13,17 @@ body {
     height: 150px;
     border-radius: 50%;
     align-self: center;
+    flex-shrink: 0;
+}
+.about-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    gap: 20px;
+}
+.about-container .card {
+    min-width: 250px;
+    max-width: 600px;
 }
 .portfolio-section, .portfolio-section-alternate  {
     display: flex;
@@ -169,7 +180,7 @@ a:hover {
 
 @media (max-width: 768px) {
     body {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .navbar{
@@ -180,9 +191,14 @@ a:hover {
         gap: 5px;
     }
 
-    img, video {
+    img {
         max-width: 100%;
         height: auto;
+    }
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
     }
 
     .skills-grid, .hobbies-grid {
