@@ -5,7 +5,6 @@ body {
     color: #333D29;
     margin: 0;
 }
-
 .portfolio-picture{
     display: block;
     object-fit: cover;
@@ -14,6 +13,26 @@ body {
     height: 150px;
     border-radius: 50%;
     align-self: center;
+}
+.portfolio-section, .portfolio-section-alternate  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+}
+.portfolio-section h1, .portfolio-section-alternate h1 {
+    align-self: flex-start;
+    width: 100%;
+    text-align: left;
+}
+.portfolio-section {
+    border-bottom: 2px solid #B6AD90;
+    background-color: #A68A64;
+}
+.portfolio-section-alternate {
+    border-bottom: 2px solid #A68A64;
+    background-color: #B6AD90;
 }
 .navbar{
     font-size: medium;
@@ -54,25 +73,8 @@ a:hover {
     text-decoration: none;
 }
 
-.portfolio-section {
-    border-bottom: 2px solid #B6AD90;
-    background-color: #A68A64;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 10px;
-}
 
-.portfolio-section-alternate {
-    border-bottom: 2px solid #A68A64;
-    background-color: #B6AD90;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 10px;
-}
+
 
 .portfolio-footer {
     background-color: #333D29;
@@ -122,17 +124,16 @@ a:hover {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     justify-content: left;
     gap: 20px;
     padding: 20px;
-    width: 100%;
+    width: 100%;;
     box-sizing: border-box;
 }
 
 .project-card {
     background-color: #C2C5AA;
-    max-width: 800px;
     padding: 20px;
     border-radius: 12px;
     color: #333D29;
