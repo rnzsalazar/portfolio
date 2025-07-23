@@ -179,16 +179,16 @@ a:hover {
 }
 
 .hobby-card.camera {
-    cursor: url('icons/camera.ico'), auto;
+    cursor: url('../icons/camera.ico'), auto;
 }
 .hobby-card.controller {
-    cursor: url('icons/controller.ico'), auto;
+    cursor: url('../icons/controller.ico'), auto;
 }
 .hobby-card.skateboard {
-    cursor: url('icons/skateboard.ico'), auto;
+    cursor: url('../icons/skateboard.ico'), auto;
 }
 .hobby-card.server {
-    cursor: url('icons/server.ico'), auto;
+    cursor: url('../icons/server.ico'), auto;
 }
 
 @media (max-width: 768px) {
