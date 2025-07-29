@@ -1,4 +1,4 @@
-const skillCards = document.querySelectorAll('.skill-card');
+const hobbiesCards = document.querySelectorAll('.hobby-card');
 const carousel = document.getElementById('carouselImage');
 const photoButtons = document.querySelectorAll(".carousel-button");
 let current = 0;
@@ -8,12 +8,12 @@ const images = [
     'images/photography3.webp'
 ];
 
-skillCards.forEach(skillCard => {
-    skillCard.addEventListener('mouseenter', (event) => {
-        skillCard.classList.add('hover-effect');
+hobbiesCards.forEach(hobbyCard => {
+    hobbyCard.addEventListener('mouseenter', (event) => {
+        hobbyCard.classList.add('hover-effect');
     });
-    skillCard.addEventListener('mouseleave', (event) => {
-        skillCard.classList.remove('hover-effect');
+    hobbyCard.addEventListener('mouseleave', (event) => {
+        hobbyCard.classList.remove('hover-effect');
     })
 })
 
